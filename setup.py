@@ -4,9 +4,9 @@ setup(
     name="mediafire-dl-ne",
     version="0.1.0",
     description="Simple command-line script to download files from mediafire based on gdown",
-    url="https://github.com/nck404/",
-    author="Juvenal Yescas",
-    author_email="juvenal@mail.com",
+    url="pymediafire",
+    author="nck",
+    author_email="khoavencyti@mail.com",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

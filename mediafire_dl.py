@@ -56,13 +56,13 @@ def download(url, output=None, quiet=False):
     output_is_path = isinstance(output, six.string_types)
 
     if not quiet:
-        print('Downloading...', file=sys.stderr)
-        print('From:', url_origin, file=sys.stderr)
-        print(
-            'To:',
-            osp.abspath(output) if output_is_path else output,
-            file=sys.stderr,
-        )
+        print('    [i] Downloading...', file=sys.stderr)
+        # print('From:', url_origin, file=sys.stderr)
+        #print(
+        #    'To:',
+        #    osp.abspath(output) if output_is_path else output,
+        #    file=sys.stderr,
+        #)
 
     if output_is_path:
         tmp_file = tempfile.mktemp(
